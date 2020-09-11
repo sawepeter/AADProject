@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/confirm_dialog_layout.xml",
+        "source": "/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/res/layout/confirm_dialog_layout.xml"
+    },
+    {
+        "merged": "/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_splash.xml",
+        "source": "/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/res/layout/fragment_splash.xml"
+    },
+    {
+        "merged": "/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_leader.xml",
+        "source": "/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/res/layout/fragment_leader.xml"
+    },
+    {
+        "merged": "/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/leaderboard_item.xml",
+        "source": "/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/res/layout/leaderboard_item.xml"
+    },
+    {
+        "merged": "/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/not_successful_dailog_layout.xml",
+        "source": "/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/res/layout/not_successful_dailog_layout.xml"
+    },
+    {
+        "merged": "/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_submit.xml",
+        "source": "/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/res/layout/fragment_submit.xml"
+    },
+    {
+        "merged": "/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/successful_dailog_layout.xml",
+        "source": "/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/res/layout/successful_dailog_layout.xml"
+    }
+]

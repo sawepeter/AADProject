@@ -1,0 +1,56 @@
+package com.devsawe.associateandroiddeveloperpracticeproject.viewmodel
+
+import android.util.Log
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import com.devsawe.associateandroiddeveloperpracticeproject.model.LeaderBoardModelItem
+import com.devsawe.associateandroiddeveloperpracticeproject.repository.LeaderBoardRepository
+import com.devsawe.associateandroiddeveloperpracticeproject.repository.SubmitRepository
+import com.devsawe.associateandroiddeveloperpracticeproject.utils.LEARNING_LEADERS
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.launch
+import java.lang.Exception
+
+class LeaderBoardViewModel (): ViewModel() {
+
+    private val viewModelJob= SupervisorJob()
+    private val viewModelScope= CoroutineScope(viewModelJob+Dispatchers.Main)
+    private val leaderBoardRepository = LeaderBoardRepository()
+    private val submitRepository = SubmitRepository()
+
+    val learningLeaders: LiveData<List<LeaderBoardModelItem>>
+        get() = mLearningLeaders
+    private val mLearningLeaders = MutableLiveData<List<LeaderBoardModelItem>>()
+
+    val skillLeaders: LiveData<List<LeaderBoardModelItem>>
+        get() = mSkillLeaders
+    private val mSkillLeaders = MutableLiveData<List<LeaderBoardModelItem>>()
+    fun fetchLeaderBoard(leaderBoardType: String){
+
+        viewModelScope.launch {
+            try{
+
+                leaderBoardRepository.fetchLearningLeaders(leaderBoardType)
+                if(leaderBoardType == LEARNING_LEADERS) {
+                    mLearningLeaders.value = leaderBoardRepository.learningLeadersMLiveData.value
+                }
+                else{
+                    mSkillLeaders.value = leaderBoardRepository.learningLeadersMLiveData.value
+                }
+            }
+            catch (e :Exception){
+                Log.d("error",e.message!!)
+            }
+        }
+    }
+
+
+    override fun onCleared() {
+        super.onCleared()
+        viewModelJob.cancel()
+    }
+
+}

@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.associateandroiddeveloperpracticeproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml:5:5-79
+12-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml:5:22-76
+13
+14    <!-- Permission will be merged into the manifest of the hosting app. -->
+15    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->[com.google.android.play:core:1.7.2] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a30864e169719025ad1a3e525ac4a93f/jetified-core-1.7.2/AndroidManifest.xml:8:3-74
+16-->[com.google.android.play:core:1.7.2] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a30864e169719025ad1a3e525ac4a93f/jetified-core-1.7.2/AndroidManifest.xml:8:20-72
+17
+18    <application
+18-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml:6:5-20:19
+19        android:allowBackup="true"
+19-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml:7:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.3.1] /home/devsawe/.gradle/caches/transforms-2/files-2.1/c18b98c3b508ad03ea3f8a4d957c9e79/core-1.3.1/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml:8:9-43
+23        android:label="@string/app_name"
+23-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml:9:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml:10:9-54
+25        android:supportsRtl="true"
+25-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml:11:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml:12:9-40
+28        <activity android:name="com.devsawe.associateandroiddeveloperpracticeproject.ui.MainActivity" >
+28-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml:13:9-19:20
+28-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml:13:19-102
+29            <intent-filter>
+29-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml:14:13-18:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml:15:17-69
+30-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml:15:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml:17:17-77
+32-->/home/devsawe/AndroidStudioProjects/AADPracticeProject/app/src/main/AndroidManifest.xml:17:27-74
+33            </intent-filter>
+34        </activity>
+35        <!-- The activities will be merged into the manifest of the hosting app. -->
+36        <activity
+36-->[com.google.android.play:core:1.7.2] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a30864e169719025ad1a3e525ac4a93f/jetified-core-1.7.2/AndroidManifest.xml:12:5-271
+37            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+37-->[com.google.android.play:core:1.7.2] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a30864e169719025ad1a3e525ac4a93f/jetified-core-1.7.2/AndroidManifest.xml:12:15-102
+38            android:enabled="false"
+38-->[com.google.android.play:core:1.7.2] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a30864e169719025ad1a3e525ac4a93f/jetified-core-1.7.2/AndroidManifest.xml:12:103-126
+39            android:exported="false"
+39-->[com.google.android.play:core:1.7.2] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a30864e169719025ad1a3e525ac4a93f/jetified-core-1.7.2/AndroidManifest.xml:12:127-151
+40            android:launchMode="singleInstance"
+40-->[com.google.android.play:core:1.7.2] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a30864e169719025ad1a3e525ac4a93f/jetified-core-1.7.2/AndroidManifest.xml:12:204-239
+41            android:process=":playcore_missing_splits_activity"
+41-->[com.google.android.play:core:1.7.2] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a30864e169719025ad1a3e525ac4a93f/jetified-core-1.7.2/AndroidManifest.xml:12:152-203
+42            android:stateNotNeeded="true" />
+42-->[com.google.android.play:core:1.7.2] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a30864e169719025ad1a3e525ac4a93f/jetified-core-1.7.2/AndroidManifest.xml:12:240-269
+43        <activity
+43-->[com.google.android.play:core:1.7.2] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a30864e169719025ad1a3e525ac4a93f/jetified-core-1.7.2/AndroidManifest.xml:13:5-226
+44            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+44-->[com.google.android.play:core:1.7.2] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a30864e169719025ad1a3e525ac4a93f/jetified-core-1.7.2/AndroidManifest.xml:13:15-95
+45            android:enabled="false"
+45-->[com.google.android.play:core:1.7.2] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a30864e169719025ad1a3e525ac4a93f/jetified-core-1.7.2/AndroidManifest.xml:13:96-119
+46            android:exported="false"
+46-->[com.google.android.play:core:1.7.2] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a30864e169719025ad1a3e525ac4a93f/jetified-core-1.7.2/AndroidManifest.xml:13:120-144
+47            android:stateNotNeeded="true"
+47-->[com.google.android.play:core:1.7.2] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a30864e169719025ad1a3e525ac4a93f/jetified-core-1.7.2/AndroidManifest.xml:13:145-174
+48            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+48-->[com.google.android.play:core:1.7.2] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a30864e169719025ad1a3e525ac4a93f/jetified-core-1.7.2/AndroidManifest.xml:13:175-224
+49        <service
+49-->[com.google.android.play:core:1.7.2] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a30864e169719025ad1a3e525ac4a93f/jetified-core-1.7.2/AndroidManifest.xml:16:5-145
+50            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+50-->[com.google.android.play:core:1.7.2] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a30864e169719025ad1a3e525ac4a93f/jetified-core-1.7.2/AndroidManifest.xml:16:14-95
+51            android:enabled="false"
+51-->[com.google.android.play:core:1.7.2] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a30864e169719025ad1a3e525ac4a93f/jetified-core-1.7.2/AndroidManifest.xml:16:96-119
+52            android:exported="true" />
+52-->[com.google.android.play:core:1.7.2] /home/devsawe/.gradle/caches/transforms-2/files-2.1/a30864e169719025ad1a3e525ac4a93f/jetified-core-1.7.2/AndroidManifest.xml:16:120-143
+53    </application>
+54
+55</manifest>

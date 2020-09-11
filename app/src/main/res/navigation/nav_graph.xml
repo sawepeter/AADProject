@@ -5,7 +5,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.example.associateandroiddeveloperpracticeproject.ui.SplashFragment"
+        android:name="com.devsawe.associateandroiddeveloperpracticeproject.ui.SplashFragment"
         android:label="SplashFragment" >
         <action
             android:id="@+id/action_splashFragment_to_homeFragment"
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.associateandroiddeveloperpracticeproject.ui.HomeFragment"
+        android:name="com.devsawe.associateandroiddeveloperpracticeproject.ui.HomeFragment"
         android:label="HomeFragment" >
         <action
             android:id="@+id/action_homeFragment_to_submitFragment"
@@ -23,6 +23,6 @@
     </fragment>
     <fragment
         android:id="@+id/submitFragment"
-        android:name="com.example.associateandroiddeveloperpracticeproject.ui.SubmitFragment"
+        android:name="com.devsawe.associateandroiddeveloperpracticeproject.ui.SubmitFragment"
         android:label="SubmitFragment" />
 </navigation>

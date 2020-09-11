@@ -9,7 +9,7 @@
             type="Boolean" />
         <variable
             name="leaderBoardItem"
-            type="com.example.associateandroiddeveloperpracticeproject.model.LeaderBoardModelItem" />
+            type="com.devsawe.associateandroiddeveloperpracticeproject.model.LeaderBoardModelItem" />
     </data>
 
     <androidx.cardview.widget.CardView
@@ -26,7 +26,7 @@
 
             <ImageView
                 android:id="@+id/top_learner_badge"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:padding="6dp"
                 android:scaleType="centerInside"
